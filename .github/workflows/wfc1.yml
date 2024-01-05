@@ -6,6 +6,10 @@ on:
 jobs:
   wfc1_job1:
     runs-on: ubuntu-latest
+    
+    concurrency:
+    group: AAA
+  
     steps:
       - run: |
           echo "wfc1 (1) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY

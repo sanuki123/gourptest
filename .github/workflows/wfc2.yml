@@ -3,6 +3,9 @@ name: wfc2
 on:
   workflow_call:
 
+concurrency:
+  group: AAA
+  
 jobs:
   wfc2_job:
     runs-on: ubuntu-latest
