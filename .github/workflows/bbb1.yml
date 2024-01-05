@@ -1,10 +1,6 @@
 name: bbb1
 
-on:
-  push:
-    branches:
-      - main
-      
+on:      
   workflow_call:
 
 concurrency:
