@@ -10,4 +10,8 @@ on:
 jobs:
 
   call-workflow1:
+    concurrency:
+      group: AAA
+      cancel-in-progress: false
+    
     uses: ./.github/workflows/bbb2.yml
