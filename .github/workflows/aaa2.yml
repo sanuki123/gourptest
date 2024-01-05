@@ -2,7 +2,8 @@ name: bbb1
 
 on:
   push:
-    - main
+    branches:
+      - main
 
   workflow_dispatch:
 
