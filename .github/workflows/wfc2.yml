@@ -1,0 +1,23 @@
+name: wfc2
+
+on:
+  workflow_call:
+
+jobs:
+  wfc1_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "wfc2 (1)"
+          sleep 1
+          echo "wfc2 (2)"
+          sleep 1
+          echo "wfc2 (3)"
+          sleep 1
+          echo "wfc2 (4)"
+          sleep 1
+          echo "wfc2 (5)"
+          sleep 1
+          echo "wfc2 (6)"
+      
+

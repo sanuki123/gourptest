@@ -1,0 +1,25 @@
+name: wfc1
+
+on:
+  workflow_call:
+
+jobs:
+  wfc1_job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "wfc1 (1)"
+          sleep 1
+          echo "wfc1 (2)"
+          sleep 1
+          echo "wfc1 (3)"
+          sleep 1
+          echo "wfc1 (4)"
+          sleep 1
+          echo "wfc1 (5)"
+          sleep 1
+          echo "wfc1 (6)"
+  
+  wfc1_job2:
+    uses: ./.github/workflows/wfc2.yml
+

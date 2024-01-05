@@ -1,0 +1,9 @@
+name: aaa1
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  call-workflow:
+    uses: ./.github/workflows/wfc1.yml
