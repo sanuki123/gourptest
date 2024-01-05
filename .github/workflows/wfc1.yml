@@ -3,12 +3,13 @@ name: wfc1
 on:
   workflow_call:
 
+concurrency:
+  group: AAA
+
 jobs:
   wfc1_job1:
     runs-on: ubuntu-latest
     
-    concurrency:
-      group: AAA
   
     steps:
       - run: |

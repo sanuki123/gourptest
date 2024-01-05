@@ -5,5 +5,8 @@ on:
 
 jobs:
 
-  call-workflow:
+  call-workflow1:
     uses: ./.github/workflows/wfc1.yml
+
+  call-workflow2:
+    uses: ./.github/workflows/wfc2.yml
