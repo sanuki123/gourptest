@@ -8,16 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "wfc2 (1)" >> $GITHUB_STEP_SUMMARY
+          echo "wfc2 (1) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (2)" >> $GITHUB_STEP_SUMMARY
+          echo "wfc2 (2) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (3)" >> $GITHUB_STEP_SUMMARY
+          echo "wfc2 (3) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (4)" >> $GITHUB_STEP_SUMMARY
+          echo "wfc2 (4) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (5)" >> $GITHUB_STEP_SUMMARY
+          echo "wfc2 (5) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (6)" >> $GITHUB_STEP_SUMMARY
+          echo "wfc2 (6) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
       
 
