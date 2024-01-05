@@ -1,7 +1,6 @@
 name: bbb2
 
-
-    
+on:
   workflow_call:
 
 concurrency:
