@@ -4,20 +4,20 @@ on:
   workflow_call:
 
 jobs:
-  wfc1_job:
+  wfc2_job:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "wfc2 (1)"
+          echo "wfc2 (1)" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (2)"
+          echo "wfc2 (2)" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (3)"
+          echo "wfc2 (3)" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (4)"
+          echo "wfc2 (4)" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (5)"
+          echo "wfc2 (5)" >> $GITHUB_STEP_SUMMARY
           sleep 1
-          echo "wfc2 (6)"
+          echo "wfc2 (6)" >> $GITHUB_STEP_SUMMARY
       
 
