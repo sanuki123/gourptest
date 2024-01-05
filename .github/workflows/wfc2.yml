@@ -3,9 +3,7 @@ name: wfc2
 on:
   workflow_call:
 
-concurrency:
-  group: AAA
-  cancel-in-progress: false
+
   
 jobs:
   wfc2_job:

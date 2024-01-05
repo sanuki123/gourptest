@@ -1,4 +1,4 @@
-name: bbb1
+name: aaa2
 
 on:
   push:
@@ -7,6 +7,10 @@ on:
 
   workflow_dispatch:
 
+concurrency:
+  group: AAA
+  cancel-in-progress: false
+  
 jobs:
 
   call-workflow1:
