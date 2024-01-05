@@ -5,7 +5,8 @@ on:
 
 concurrency:
   group: AAA
-
+  cancel-in-progress: false
+  
 jobs:
   wfc1_job1:
     runs-on: ubuntu-latest

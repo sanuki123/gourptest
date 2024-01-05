@@ -1,6 +1,9 @@
 name: bbb1
 
 on:
+  push:
+    - main
+
   workflow_dispatch:
 
 jobs:

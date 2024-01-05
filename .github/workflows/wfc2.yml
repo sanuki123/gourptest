@@ -5,6 +5,7 @@ on:
 
 concurrency:
   group: AAA
+  cancel-in-progress: false
   
 jobs:
   wfc2_job:

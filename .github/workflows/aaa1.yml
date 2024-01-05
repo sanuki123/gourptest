@@ -1,6 +1,9 @@
 name: aaa1
 
 on:
+  push:
+    - main
+    
   workflow_dispatch:
 
 jobs:
