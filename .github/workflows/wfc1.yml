@@ -25,6 +25,6 @@ jobs:
           sleep 1
           echo "wfc1 (6) $(date +"%H:%M:%S")" >> $GITHUB_STEP_SUMMARY
   
-  wfc1_job2:
-    uses: ./.github/workflows/wfc2.yml
+  #wfc1_job2:
+  #  uses: ./.github/workflows/wfc2.yml
 
