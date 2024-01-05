@@ -3,9 +3,7 @@ name: bbb1
 on:
   workflow_call:
 
-concurrency:
-  group: AAA
-  cancel-in-progress: false
+
   
 jobs:
 
