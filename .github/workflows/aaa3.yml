@@ -14,10 +14,10 @@ jobs:
 
     concurrency:
       group: AAA
-      cancel-in-progress: false
+      cancel-in-progress: true
   
     steps:
       -
         run: |
-          sleep 5
+          sleep 10
           echo ${{ github.ref }}
