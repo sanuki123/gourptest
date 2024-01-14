@@ -9,9 +9,11 @@ on:
   
 jobs:
 
-  call-workflow1:
+  call-workflow2:
     concurrency:
       group: AAA
       cancel-in-progress: false
-    
-    uses: ./.github/workflows/bbb2.yml
+  
+    -
+      run: |
+        echo ${{ github.ref }}
