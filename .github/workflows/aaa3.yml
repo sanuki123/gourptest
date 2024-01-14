@@ -9,7 +9,15 @@ on:
   
 jobs:
 
-  aaajob3:
+  aaajob3_1:
+    runs-on: ubuntu-latest
+    
+    steps:
+      -
+        run: |
+          echo "xxxxxxxxx
+          
+  aaajob3_2:
     runs-on: ubuntu-latest
 
     concurrency:
