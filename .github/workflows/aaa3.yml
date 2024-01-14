@@ -16,6 +16,7 @@ jobs:
       group: AAA
       cancel-in-progress: false
   
-    -
-      run: |
-        echo ${{ github.ref }}
+    steps:
+      -
+        run: |
+          echo ${{ github.ref }}
