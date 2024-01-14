@@ -15,7 +15,7 @@ jobs:
     steps:
       -
         run: |
-          echo "xxxxxxxxx
+          echo "xxxxxxxxx"
           
   aaajob3_2:
     runs-on: ubuntu-latest
