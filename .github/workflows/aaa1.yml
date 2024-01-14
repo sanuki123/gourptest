@@ -9,7 +9,9 @@ on:
   
 jobs:
 
-  call-workflow1:
+  job1:
+    runs-on: ubuntu-latest
+    
     concurrency:
       group: AAA
       cancel-in-progress: false
