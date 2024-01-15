@@ -22,7 +22,7 @@ jobs:
     
     concurrency:
       group: AAA
-      cancel-in-progress: true
+      cancel-in-progress: false
     
     steps:
       -
